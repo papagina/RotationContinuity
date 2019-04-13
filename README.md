@@ -4,3 +4,6 @@ This is a prerelease for the coder of the paper "On the Continuity of Rotation R
 I only put the code for the pose estimation experiment currently.
 
 I will release the formal one later.
+
+Python version: 3.6
+Pytorch version: 0.4.1.post2
