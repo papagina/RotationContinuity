@@ -324,7 +324,7 @@ def compute_geodesic_distance_from_two_matrices(m1, m2):
 
 #matrices batch*3*3
 #both matrix are orthogonal rotation matrices
-#out theta between 0 to 180 degree batch
+#out theta between 0 to pi batch
 def compute_angle_from_r_matrices(m):
     
     batch=m.shape[0]
