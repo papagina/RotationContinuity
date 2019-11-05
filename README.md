@@ -45,8 +45,9 @@ https://drive.google.com/open?id=1ksAvPXoz-NwxikWIXS4SrlRtQyAbh7v8
 
 https://drive.google.com/open?id=14cXYy_an6Lp1y0g8S8kJwEdlPykyQxVv
 
-The code for transforming bvh to numpy is in Inverse_Kinematics/code/generate_quat_data_from_bvh_data.py
-For numpy to bvh, find it in Inverse_Kinematics/code/read_bvh.write_joint_rotation_matrices_to_bvh
+The code for transforming bvh to npy is in Inverse_Kinematics/code/generate_quat_data_from_bvh_data.py
+
+For npy to bvh, find it in Inverse_Kinematics/code/read_bvh.write_joint_rotation_matrices_to_bvh
 
 ### Training
 Run 
