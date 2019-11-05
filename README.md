@@ -1,6 +1,6 @@
 Pytorch Code for "On The Continuity of Rotation Representations in Neural Networks"
 
-#Environment
+## Environment
 
 conda create -n env_Rotation python=3.6
 conda activate env_Rotation
@@ -9,7 +9,7 @@ pip install tensorboard tensorboardX transforms3d opencv-python matplotlib confi
 conda install pytorch=0.4.1 cuda90 -c pytorch
 
 
-##1. Sanity Test
+## 1. Sanity Test
 
 -Training
 Go to sanity_test/code and run python train.py
@@ -20,7 +20,7 @@ After the training is done, run test.py
 This code will print out the mean, max and std of the errors of differet rotation representations.
 
 
-##2. Inverse Kinematics
+## 2. Inverse Kinematics
 
 -dataset
 The dataset was constructed from a subset of CMU Motion Capture Dataset https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture/daz-friendly-release
