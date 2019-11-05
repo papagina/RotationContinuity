@@ -1,8 +1,6 @@
 Pytorch Code for "On The Continuity of Rotation Representations in Neural Networks"
 
-
-#######################################################
-Environment
+#Environment
 
 conda create -n env_Rotation python=3.6
 conda activate env_Rotation
@@ -10,8 +8,8 @@ conda install numpy
 pip install tensorboard tensorboardX transforms3d opencv-python matplotlib configparser scipy plyfile
 conda install pytorch=0.4.1 cuda90 -c pytorch
 
-#######################################################
-1. Sanity Test
+
+##1. Sanity Test
 
 -Training
 Go to sanity_test/code and run python train.py
@@ -21,8 +19,8 @@ This code will train the network with eight rotation representations using l2 lo
 After the training is done, run test.py 
 This code will print out the mean, max and std of the errors of differet rotation representations.
 
-#######################################################
-2. Inverse Kinematics
+
+##2. Inverse Kinematics
 
 -dataset
 The dataset was constructed from a subset of CMU Motion Capture Dataset https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture/daz-friendly-release
@@ -46,8 +44,8 @@ Run python trainIK_test.py
 
 This code will load the models as defined in line 215 at iteration (line 222) and print out the mean and max position errors of the joints and the rotation errors of the root. It will also create folders in the folder of each model named as "/test_"+"%07d"%iteration" and output the bad poses with errors higher than a threshold (line 224) in bvh format.
 
-########################################################
-3. ShapeNet
+
+## 3. ShapeNet
 The data and code are organized in the way similar to the ones above.
 
 
