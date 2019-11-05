@@ -26,7 +26,7 @@ This code will train the network with eight rotation representations using l2 lo
 ### Testing
 After the training is done, run 
 ```
-test.py
+python test.py
 
 ```
 
