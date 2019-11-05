@@ -42,6 +42,7 @@ We transformed the original motion clips in the bvh form into npy form which con
 
 Please download our transformed numpy training and testing data and put them in the folder Inverse_Kinematics/data.
 https://drive.google.com/open?id=1ksAvPXoz-NwxikWIXS4SrlRtQyAbh7v8
+
 https://drive.google.com/open?id=14cXYy_an6Lp1y0g8S8kJwEdlPykyQxVv
 
 The code for transforming bvh to numpy is in Inverse_Kinematics/code/generate_quat_data_from_bvh_data.py
