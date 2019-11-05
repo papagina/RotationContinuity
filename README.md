@@ -1,4 +1,4 @@
-Pytorch Code for "On The Continuity of Rotation Representations in Neural Networks"
+Pytorch Code for "On The Continuity of Rotation Representations in Neural Networks".
 
 ## Environment
 
