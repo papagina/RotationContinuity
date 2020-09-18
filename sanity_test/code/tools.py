@@ -139,9 +139,9 @@ def compute_rotation_matrix_from_axisAngle( axisAngle):
     batch = axisAngle.shape[0]
     
     theta = torch.tanh(axisAngle[:,0])*np.pi #[-180, 180]
-    sin = torch.sin(theta)
+    sin = torch.sin(theta*0.5)
     axis = normalize_vector(axisAngle[:,1:4]) #batch*3
-    qw = torch.cos(theta)
+    qw = torch.cos(theta*0.5)
     qx = axis[:,0]*sin
     qy = axis[:,1]*sin
     qz = axis[:,2]*sin
